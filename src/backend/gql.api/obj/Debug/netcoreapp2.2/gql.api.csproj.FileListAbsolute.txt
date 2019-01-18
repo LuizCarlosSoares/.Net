@@ -3,6 +3,10 @@
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.api.runtimeconfig.dev.json
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.api.dll
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.api.pdb
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.core.dll
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.dll
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.core.pdb
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.pdb
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.csprojAssemblyReference.cache
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.csproj.CoreCompileInputs.cache
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.RazorAssemblyInfo.cache
@@ -10,10 +14,6 @@
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.AssemblyInfoInputs.cache
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.AssemblyInfo.cs
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.RazorTargetAssemblyInfo.cache
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.csproj.CopyComplete
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.dll
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.pdb
-/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.core.dll
-/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.dll
-/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.core.pdb
-/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.pdb
-/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.csproj.CopyComplete
