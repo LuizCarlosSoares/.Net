@@ -5,7 +5,7 @@ using gql.core.model;
 using gql.core.repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace gql.data.Repostitories {
+namespace gql.data.repository {
 
     public class GameRepository : IGameRepository {
 

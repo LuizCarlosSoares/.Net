@@ -18,7 +18,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using gql.core.model;
-using gql.core.data.repository;
+using gql.core.repository;
+using gql.data.repository;
 
 namespace gql.api
 {

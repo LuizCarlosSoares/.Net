@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using gql.core.model;
 
-namespace gql.data.Repostitories {
+namespace gql.data.repository {
 
     public class CompanyRepository : ICompanyRepository {
 
