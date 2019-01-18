@@ -6,3 +6,4 @@
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.AssemblyInfo.cs
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.dll
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.pdb
+/home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.csprojAssemblyReference.cache
