@@ -7,3 +7,12 @@
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.dll
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.pdb
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.core/obj/Debug/netstandard2.0/gql.core.csprojAssemblyReference.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\bin\Debug\netstandard2.0\gql.core.deps.json
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\bin\Debug\netstandard2.0\gql.core.dll
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\bin\Debug\netstandard2.0\gql.core.pdb
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.csprojAssemblyReference.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.csproj.CoreCompileInputs.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.AssemblyInfoInputs.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.AssemblyInfo.cs
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.dll
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.core\obj\Debug\netstandard2.0\gql.core.pdb

@@ -12,3 +12,17 @@
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.data/obj/Debug/netcoreapp2.2/gql.data.csproj.CopyComplete
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.data/obj/Debug/netcoreapp2.2/gql.data.dll
 /home/lsoares/Repositories/General/graph-ql-net-core-angular/src/backend/gql.data/obj/Debug/netcoreapp2.2/gql.data.pdb
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.data.deps.json
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.data.runtimeconfig.json
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.data.runtimeconfig.dev.json
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.data.dll
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.data.pdb
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.core.dll
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\bin\Debug\netcoreapp2.2\gql.core.pdb
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.csprojAssemblyReference.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.csproj.CoreCompileInputs.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.AssemblyInfoInputs.cache
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.AssemblyInfo.cs
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.csproj.CopyComplete
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.dll
+C:\Users\lcssoares\source\repos\.Net\src\backend\gql.data\obj\Debug\netcoreapp2.2\gql.data.pdb
