@@ -36,7 +36,7 @@ namespace gql.data {
 
                 var config = builder.Build ();
 
-                var connstr = config.GetConnectionString ("Default");
+                var connstr = config.GetConnectionString ("Lite");
 
                 if (string.IsNullOrWhiteSpace (connstr)) {
                     throw new InvalidOperationException (
@@ -58,7 +58,7 @@ namespace gql.data {
                     "MyDesignTimeDbContextFactory.Create(string): Connection string: {0}",
                     connectionString);
 
-                optionsBuilder.UseSqlServer (connectionString);
+                optionsBuilder.UseSqlite (connectionString);
 
                 var options = optionsBuilder.Options;
                 return CreateNewInstance (options);
