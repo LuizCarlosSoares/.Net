@@ -22,6 +22,7 @@ using gql.core.repository;
 using gql.data.repository;
 using gql.data;
 using gql.api.models;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace gql.api
 {
@@ -41,8 +42,19 @@ namespace gql.api
             services.AddDbContext<CoreDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Default"]));
             services.AddTransient<IGameRepository, GameRepository>();
             services.AddTransient<ICompanyRepository, CompanyRepository>();
+            services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
+            services.AddTransient<ISchema, GraphQL.Types.Schema>();
+
             services.AddSingleton<CompanyInputType>();
             services.AddSingleton<GameInputType>();
+            var sp = services.BuildServiceProvider();
+            services.AddSingleton<ISchema>(new CompanySchema(new FuncDependencyResolver(type => sp.GetService(type))));
+            services.AddSingleton<GraphQLUserContext>();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Graph QL Api", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +71,18 @@ namespace gql.api
             }
 
             app.UseHttpsRedirection();
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Graph QL Api");
+            });
+
+
             app.UseMvc();
         }
     }

@@ -9,7 +9,7 @@ namespace gql.api.models
     {
         public CompanyMutation(ICompanyRepository companyRepository)
         {
-            Name = "CreateCompany";
+            Name = "CreatePlayerMutation";
 
             Field<CompanyType>(
                 "createCompany",
