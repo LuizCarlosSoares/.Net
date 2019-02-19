@@ -2,12 +2,12 @@ src/backend/gql.data/obj/Debug/netcoreapp2.2/gql.data.pdb
 src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.api.dll
 src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.api.pdb
 src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.dll
-src/backend/gql.api/bin/Debug/netcoreapp2.2/gql.data.pdb
 src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.dll
+src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.core.pdb
+src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.core.dll
 src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.pdb
 src/backend/gql.api/obj/Debug/netcoreapp2.2/gql.api.csprojAssemblyReference.cache
-src/backend/gql.data/bin/Debug/netcoreapp2.2/gql.data.dll
-src/backend/gql.data/bin/Debug/netcoreapp2.2/gql.data.pdb
-src/backend/gql.data/obj/Debug/netcoreapp2.2/gql.data.dll
+
 /src/backend/.vs/backend/v16/Server/sqlite3
 /.vs
+
