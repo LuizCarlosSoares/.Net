@@ -23,6 +23,7 @@ using gql.data.repository;
 using gql.data;
 using gql.api.models;
 using Swashbuckle.AspNetCore.Swagger;
+using GraphiQl;
 
 namespace gql.api
 {
@@ -39,17 +40,21 @@ namespace gql.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddDbContext<CoreDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Default"]));
+
+            services.AddDbContext<CoreDbContext>(options => options.UseSqlite(Configuration["ConnectionStrings:Lite"]));
             services.AddTransient<IGameRepository, GameRepository>();
             services.AddTransient<ICompanyRepository, CompanyRepository>();
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
-            services.AddTransient<ISchema, GraphQL.Types.Schema>();
+            services.AddSingleton<GraphQLUserContext>();
 
-            services.AddSingleton<CompanyInputType>();
-            services.AddSingleton<GameInputType>();
+            services.AddSingleton<CompanyType>();
+            services.AddSingleton<CompanyInputType>();            
+            services.AddSingleton<CompanyQuery>();          
+            services.AddSingleton<CompanyMutation>();
+
             var sp = services.BuildServiceProvider();
             services.AddSingleton<ISchema>(new CompanySchema(new FuncDependencyResolver(type => sp.GetService(type))));
-            services.AddSingleton<GraphQLUserContext>();
+            
 
             services.AddSwaggerGen(c =>
             {
@@ -84,6 +89,10 @@ namespace gql.api
 
 
             app.UseMvc();
+
+            app.UseGraphiQl();
+
+
         }
     }
 }
