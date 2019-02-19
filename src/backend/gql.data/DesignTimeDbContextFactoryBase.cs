@@ -58,7 +58,7 @@ namespace gql.data {
                     "MyDesignTimeDbContextFactory.Create(string): Connection string: {0}",
                     connectionString);
 
-                optionsBuilder.UseSqlite (connectionString);
+                optionsBuilder.UseSqlite(connectionString);
 
                 var options = optionsBuilder.Options;
                 return CreateNewInstance (options);

@@ -14,7 +14,7 @@ namespace gql.data.repository
 
         private readonly CoreDbContext db;
 
-        CompanyRepository(CoreDbContext dbContext)
+        public CompanyRepository(CoreDbContext dbContext)
         {
             db = dbContext;
         }
@@ -37,7 +37,6 @@ namespace gql.data.repository
             return company;
 
         }
-
         public async Task<Company> GetRandom()
         {
             return await db.Companies.FirstOrDefaultAsync(c => c.Id == 1);

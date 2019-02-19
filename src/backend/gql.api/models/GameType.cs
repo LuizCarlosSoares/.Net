@@ -1,4 +1,5 @@
-﻿using gql.core.model;
+﻿using gql.api.models;
+using gql.core.model;
 using gql.core.repository;
 using GraphQL.Types;
 

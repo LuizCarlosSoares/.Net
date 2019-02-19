@@ -12,12 +12,12 @@ namespace gql.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GameCollectionController : ControllerBase
+    public class GraphQLController : ControllerBase
     {
         private readonly IDocumentExecuter documentExecuter;
         private readonly ISchema schema;
         private readonly GraphQLUserContext userContext;
-        public GameCollectionController(ISchema schema, IDocumentExecuter documentExecuter, GraphQLUserContext userContext)
+        public GraphQLController(ISchema schema, IDocumentExecuter documentExecuter, GraphQLUserContext userContext)
         {
             this.schema = schema;
             this.documentExecuter = documentExecuter;
@@ -36,8 +36,7 @@ namespace gql.api.Controllers
                 Inputs = inputs,
                 UserContext = userContext,
                 ValidationRules = new[] { new IntrospectionNotAllowed() }.Concat(DocumentValidator.CoreRules())
-            };          
-
+            };      
 
             var result = await documentExecuter.ExecuteAsync(executionOptions).ConfigureAwait(false);
 

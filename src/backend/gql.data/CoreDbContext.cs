@@ -5,8 +5,8 @@
 
            public CoreDbContext (DbContextOptions options) : base (options) {
                // these are mutually exclusive, migrations cannot be used with EnsureCreated()
-               // Database.EnsureCreated();
-               Database.Migrate ();
+              //  Database.EnsureCreated();
+               //Database.Migrate ();
            }
 
            public DbSet<Game> Games { get; set; }

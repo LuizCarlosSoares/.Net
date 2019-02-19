@@ -7,9 +7,9 @@ namespace gql.api.models
         public CompanyInputType()
         {
             Name = "CompanyInput";
-            Field<IntGraphType>("id");
-            Field<NonNullGraphType<StringGraphType>>("name");
-            Field<StringGraphType>("county");
+            Field<IntGraphType>("Id");
+            Field<NonNullGraphType<StringGraphType>>("Name");
+            Field<StringGraphType>("Country");
            
         }
     }
